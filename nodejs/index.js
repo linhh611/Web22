@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app = express();
-app.use(express.static("html&css"));
+app.use(express.static('html&css')); //public file
 // Router
 app.get('/', (request, response) => {
 	const data = {
